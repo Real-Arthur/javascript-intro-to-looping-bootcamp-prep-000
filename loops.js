@@ -1,7 +1,6 @@
 
 
-function forLoop() {
-  var x = [];
+function forLoop(x) {
   for (let i = 0; i < 25; i++) {
     if ( i != 1 ) {
     return x.push(`I am ${i} strange loops.`);
