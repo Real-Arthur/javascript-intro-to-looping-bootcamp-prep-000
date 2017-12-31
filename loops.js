@@ -19,6 +19,9 @@ function whileLoop(n) {
   return 'done';
 }
 
-function doWhileLoop() {
-  
+function doWhileLoop(x) {
+  do {
+    return x.pop()
+  } while ( x.length > 0 )
+  return x
 }
