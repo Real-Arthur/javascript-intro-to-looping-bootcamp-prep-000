@@ -8,8 +8,8 @@ function forLoop() {
     } else {
     return x.push("I am 1 strange loop.");
     } 
-    return x;
   }
+  return x;
 }
 
 function whileLoop(n) {
